@@ -1,0 +1,29 @@
+.heading {
+    font-size: 25px;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+canvas {
+    border-width: 4px;
+    border-color: purple;
+    border-style: solid;
+    margin-top: 50px;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color {
+    from {
+        box-shadow: 5px 5px 40px yellow;
+    }
+
+    to {
+        box-shadow: 5px 5px 40px red;
+    }
+}
+
+#snap_btn:hover {
+    cursor: pointer;
+    background-color: chocolate;
+}
